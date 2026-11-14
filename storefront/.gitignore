@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Next.js
+.next/
+out/
+
+# Env & secrets
+.env
+.env.local
+.env.*.local
+
+# Misc
+*.log
+*.tsbuildinfo
+.DS_Store

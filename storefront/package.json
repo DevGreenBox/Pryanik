@@ -1,0 +1,24 @@
+{
+  "name": "yarkiy-pryanik-storefront",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Витрина интернет-магазина «Яркий пряник» — headless-потребитель Storefront API Admik",
+  "packageManager": "pnpm@11.8.0",
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "next build",
+    "start": "next start -p 3000",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "next": "^16.2.9",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "typescript": "^5.7.3"
+  }
+}
